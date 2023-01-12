@@ -1,7 +1,7 @@
 package gohelloworld
 
-func HelloWorld() string {
-  return "Hello World"
+func HelloWorld(name string) string {
+  return "Hello World" + name
 }
 
 func NewHelloWorld() string {
